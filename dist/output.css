@@ -1954,6 +1954,11 @@
   .transform-view {
     transform-box: view-box;
   }
+  .sm\:bg-blue-500 {
+    @media (width >= 40rem) {
+      background-color: var(--color-blue-500);
+    }
+  }
 }
 @property --tw-translate-x {
   syntax: "*";
