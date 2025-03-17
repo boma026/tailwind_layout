@@ -4,3 +4,8 @@
 @import "tailwindcss/preflight.css" layer(base);
 @import "tailwindcss/utilities.css" layer(utilities);
 
+@layer components {
+    .card {
+        @apply m-2 p-3 border-2 border-gray-700
+    }
+}
